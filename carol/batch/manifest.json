@@ -1,0 +1,38 @@
+{
+  "batch": {
+      "processes": [
+          {
+              "algorithmDescription": {
+                  "en-US": "Demo Web App using Dotnet Core.",
+                  "pt-BR": "Demo Web App using Dotnet Core."
+              },
+              "algorithmName": "run_me",
+              "algorithmTitle": {
+                  "en-US": "TOTVS Integration CRM",
+                  "pt-BR": "TOTVS Integration CRM"
+              },
+              "dataModels": [
+                  "unidademedida-perlini"
+              ],
+              "instanceProperties": {
+                  "properties": {
+                      "preemptible": false,
+                      "dockerName": "totvs-integration-crm",
+                      "instanceType": "c1.medium"
+                  }
+              },
+              "name": "totvs_integration_crm"
+          }
+      ]
+  },
+  "docker": [{
+          "dockerName": "totvs-integration-crm",
+          "dockerTag": "1.0.0",
+          "gitBranch": "main",
+          "gitPath": "/",
+          "instanceType": "c1.medium",
+          "gitDockerfileName": "Dockerfile",
+          "gitRepoUrl": "https://github.com/RicardoPerliniTotvs/totvs-integration-crm"
+      }
+  ]
+}
