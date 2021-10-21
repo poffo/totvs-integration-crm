@@ -1,0 +1,25 @@
+{
+  "online": {
+    "processes": [
+      {
+        "algorithmDescription": {
+          "en-US": "Demo Web App using Dotnet Core"
+        },
+        "algorithmName": "run_me",
+        "algorithmTitle": {
+          "en-US": "Demo Web App using Dotnet Core"
+        },
+        "instanceProperties": {
+          "profile": "",
+          "properties": {
+            "dockerImage": "docker.totvs.io/totvs_integration_crm/totvs_integration_crm:1.0.0.0",
+            "instanceMemory": "1",
+            "instanceVCPUs": "0.5"
+          }
+        },
+        "name": "onlineapp",
+        "namespace": ""
+      }
+    ]
+  }
+}
