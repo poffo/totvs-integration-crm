@@ -27,7 +27,7 @@
   },
   "docker": [{
           "dockerName": "totvs-integration-crm",
-          "dockerTag": "1.0.0",
+          "dockerTag": "2.0.0",
           "gitBranch": "main",
           "gitPath": "/",
           "instanceType": "c1.medium",
